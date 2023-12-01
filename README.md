@@ -17,3 +17,6 @@ y descripciones de los vehiculos.
   programa. Aquí hay algunas sugerencias sobre qué excepciones podrías utilizar en tu código: (codigos de ejemplo)
 - Puedes validar datos en tus métodos para asegurarte de que cumplen con ciertos criterios antes de realizar operaciones.
   Aquí te doy algunos ejemplos de cómo podrías hacerlo en tu código (entrega codigos de ejemplo)
+
+## UML: 
+![Class Diagram4](https://github.com/NichoUlloa/SistemaGestionVehiculos/assets/145157325/29f7c1a7-b79d-41c0-89d3-d32a80da1e6d)
