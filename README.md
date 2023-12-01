@@ -7,12 +7,12 @@ y descripciones de los vehiculos.
 
 
 
-# consultas ChatGpt:
+## consultas ChatGpt:
 - como podria validar algunos datos en los metodos segun mi codigo? 
 - que excepciones recomendarias usar para mi codigo? 
 - que metodos podria usar para validar los datos?
 
-# respuestas ChatGpt 
+## respuestas ChatGpt 
 - En Java, las excepciones se utilizan para manejar situaciones excepcionales o errores durante la ejecución del 
   programa. Aquí hay algunas sugerencias sobre qué excepciones podrías utilizar en tu código: (codigos de ejemplo)
 - Puedes validar datos en tus métodos para asegurarte de que cumplen con ciertos criterios antes de realizar operaciones.
