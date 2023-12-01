@@ -1,13 +1,19 @@
-Se considera desarrollar un sistema de ventas de de vehiculos , que permite a los clientes 
-comprar automoviles y motocicletas.
+## Gestion De Vehiculos
 
-## la aplicacion debe  tener las siguientes caracteristicas:
-- los clientes pueden registrarse y tener una cuenta en la tienda de vehiculos.
-- cada vehiculo tiene una marca, modelo, año fabricacion, peso del vehiculo,
-  precio, cantidad en stock.
-- la tienda debe tener un catalogo de vehiculos con diferentes tipos
-- los clientes pueden buscar vehiculos por marca, modelo o tipo
-- los clientes pueden agregar vehiculos a su carrito de compras y ver su subtotal
-- los clientes pueden hacer una compra y proporcionar informacion de envio y pago
-- cada compra realizada debe tener una lista de vehiculos, cliente asociado y fecha de compra. cada
-  vez que se realiza una compra, la cantidad de vehiculos en stock debe disminuir.
+Se considera desarrollar un sistema de ventas de de vehiculos , que permite a los clientes
+comprar automoviles y motocicletas.
+El sistema debe permitir registrar los datos de los vehiculos, tales como los datos de los clientes
+y descripciones de los vehiculos.
+
+
+
+# consultas ChatGpt:
+- como podria validar algunos datos en los metodos segun mi codigo? 
+- que excepciones recomendarias usar para mi codigo? 
+- que metodos podria usar para validar los datos?
+
+# respuestas ChatGpt 
+- En Java, las excepciones se utilizan para manejar situaciones excepcionales o errores durante la ejecución del 
+  programa. Aquí hay algunas sugerencias sobre qué excepciones podrías utilizar en tu código: (codigos de ejemplo)
+- Puedes validar datos en tus métodos para asegurarte de que cumplen con ciertos criterios antes de realizar operaciones.
+  Aquí te doy algunos ejemplos de cómo podrías hacerlo en tu código (entrega codigos de ejemplo)
