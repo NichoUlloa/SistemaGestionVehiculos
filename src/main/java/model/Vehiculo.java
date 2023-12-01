@@ -10,6 +10,7 @@ public abstract class Vehiculo {
     private int stock;
 
     private double potencia;
+    private String codigo;
 
     //constructor
     public Vehiculo(String marca, String modelo, int anioFabricacion, double pesoVeiculo, double precio, int stock, double potencia) {
@@ -51,6 +52,10 @@ public abstract class Vehiculo {
         return potencia;
     }
 
+    public String getCodigo() {
+        return codigo;
+    }
+
     public void setMarca(String marca) {
         this.marca = marca;
     }
@@ -77,6 +82,10 @@ public abstract class Vehiculo {
 
     public void setPotencia(double potencia) {
         this.potencia = potencia;
+    }
+
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
     }
 
     public abstract double calcularVelocidadMaxima();

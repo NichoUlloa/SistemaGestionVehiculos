@@ -90,13 +90,15 @@ public class Cliente {
     public void agregarCompra(Compra compra) {
     }
 
+    public String getNombreCompleto() {
+        return nombre + " " + apellido;
+    }
+
     @Override
     public String toString() {
         return "Cliente{" + "nombre=" + nombre + ", apellido=" + apellido + ", rut=" + rut + ", direccion=" + direccion + ", metodoPago=" + metodoPago + '}';
     }
 
-    public String getNombreCompleto() {
-        return nombre + " " + apellido;
-    }
+
 }
 

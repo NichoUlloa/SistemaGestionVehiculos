@@ -39,13 +39,33 @@ public class TiendaVehiculos {
         }
     }
 
-    //realizar venta de vehiculo a cliente
-    public void realizarVenta(Vehiculo vehiculo, Cliente cliente, String direccionEnvio, String metodoPago) {
-        Compra compra = new Compra(vehiculo, cliente, direccionEnvio, metodoPago);
-        vehiculos.remove(vehiculo);
-        cliente.agregarCompra(compra);
+    //metodo eliminar cliente validando que exista
+    public void eliminarCliente(Cliente cliente) {
+        if (clientes.contains(cliente)) {
+            clientes.remove(cliente);
+        }
     }
 
+    //realizar venta de vehiculo a cliente, validando que exista stock
+    public void realizarVenta(Vehiculo vehiculo, Cliente cliente, String direccionEnvio, String metodoPago) {
+        if (vehiculo.getStock() > 0) {
+            vehiculo.setStock(vehiculo.getStock() - 1);
+            Compra compra = new Compra(vehiculo, cliente, direccionEnvio, metodoPago);
+            cliente.setRut(cliente.getRut());
+            cliente.setDireccion(cliente.getDireccion());
+            cliente.setMetodoPago(cliente.getMetodoPago());
+        }
+    }
 
+    public Vehiculo buscarVehiculo(String codigo) {
+        for (Vehiculo vehiculo : vehiculos) {
+            if (vehiculo.getCodigo().equals(codigo)) {
+                return vehiculo;
+            }
+        }
+        return null;
+    }
 
+    public void agregarCompra(Compra compra) {
+    }
 }
